@@ -3,10 +3,10 @@ function playPause() {
     var music_btn = document.getElementById('music_btn2');
     if (music.paused){
         music.play();
-        music_btn.src = 'snow2.gif';
+        music_btn.src = 'SNOW/snow2.gif';
     }
     else{
         music.pause();
-        music_btn.src = 'snow1.gif';
+        music_btn.src = 'SNOW/snow5.gif';
     }
 }

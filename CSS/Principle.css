@@ -5,7 +5,7 @@ body{
      height: 100%;
      margin: 0;
      padding: 0;
-     background:url(QQ20181115-3.jpg)no-repeat;
+     background:url(timgDIVZMOGB.jpg)no-repeat;
      background-repeat:no-repeat;
      overflow: hidden;
      background-attachment: fixed;
@@ -175,4 +175,56 @@ iframe,footer{
 
 .divsfather .music_control{
      float: left;
+}
+
+
+
+#top_footer {
+	padding: 4px 10px 4px 10px;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.9);
+	color: #858585;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 12;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	-o-transition: .2s linear;
+	transition: .2s linear
+}
+#top_footer:hover{
+	background-color: #FFF;
+	background-color: rgba(255,255,255,0.8);
+	color: #000;
+}
+#top_copyright {
+	display: block;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	-o-transition: .2s linear;
+	transition: .2s linear;
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+@media screen and (max-width:500px) {
+	#top_footer {
+		padding: 1px
+	}
+
+	#top_copyright {
+		font-size: 8px;
+		letter-spacing: 0;
+		text-align: center
+	}
+}
+.top_hr_style02 {
+	border: 0;
+	border-bottom: 1px dashed #858585
+}
+
+.c-li-right{
+     color:white;
 }
